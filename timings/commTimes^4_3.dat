@@ -1,0 +1,49 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out
+# mpiexec: program arguments are: 
+# mpiexec: 24 ranks allocated via PBS select, but -n argument reduces that to 3
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has exclusive use of the allocated nodes. Enabling process-pinning
+# mpiexec: machinefile configured as:
+r5i7n15.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Sun Feb 23 11:40:11 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out 
+(r5i7n15.cx2.hpc.ic.ac.uk:0,1,2)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+Processor 2 initiation time: 0.42 sec
+Processor 1 initiation time: 0.47 sec
+Processor 0 initiation time: 0.47 sec
+Processor 0 communication time: 0.18 sec
+Processor 0 total time: Processor 1 communication time: 0 sec
+Processor 1 total time: 28.66 sec
+Processor 2 communication time: 0.1 sec
+Processor 2 total time: 28.66 sec
+28.65 sec
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 8605 RUNNING AT r5i7n15.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 8606 RUNNING AT r5i7n15.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 11 (Segmentation fault)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 8607 RUNNING AT r5i7n15.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 11 (Segmentation fault)
+===================================================================================
+# mpiexec: finished at Sun Feb 23 11:40:40 GMT 2020

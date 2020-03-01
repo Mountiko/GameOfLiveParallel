@@ -1,0 +1,251 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out
+# mpiexec: program arguments are: 
+# mpiexec: 72 ranks allocated via PBS select, but -n argument reduces that to 57
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has exclusive use of the allocated nodes. Enabling process-pinning
+# mpiexec: machinefile configured as:
+r5i7n11.cx2.hpc.ic.ac.uk:24
+r5i7n16.cx2.hpc.ic.ac.uk:24
+r5i7n5.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Sun Feb 23 12:34:30 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out 
+(r5i7n11.cx2.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)
+(r5i7n16.cx2.hpc.ic.ac.uk:24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47)
+(r5i7n5.cx2.hpc.ic.ac.uk:48,49,50,51,52,53,54,55,56)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+Processor 21 initiation time: 0.12 sec
+Processor 52 initiation time: Processor 53 initiation time: 0.1 secProcessor 18 initiation time: 0.09 sec
+0.12 sec
+
+Processor 4 initiation time: Processor 15 initiation time: 0.12 sec
+Processor 19 initiation time: 0.13 sec
+Processor 20 initiation time: 0.13 sec
+Processor Processor 30 initiation time: 0.14 sec
+Processor 32 initiation time: 0.13 sec
+0.14 sec
+Processor 33 initiation time: 0.12 sec
+Processor 5 initiation time: 0.13 sec
+Processor 40 initiation time: 0.13 sec
+Processor 10 initiation time: 0.12 sec
+Processor 43 initiation time: 0.13 sec
+Processor 12 initiation time: 0.13 sec
+Processor 45 initiation time: 0.13 sec
+Processor 16 initiation time: 0.13 sec
+Processor 46 initiation time: 0.14 sec
+2 initiation time: 0.13 secProcessor 8 initiation time: 
+Processor 47 initiation time: 0.12 sec
+0.13 sec
+Processor 6 initiation time: Processor 340.12 sec
+Processor 27 initiation time:  initiation time: 0.14 sec
+0.14 sec
+Processor 1 initiation time: 0.12 sec
+Processor 9 initiation time: 0.13 sec
+Processor 29 initiation time: 0.14 sec
+Processor 42 initiation time: 0.14 sec
+Processor 7 initiation time: 0.13 sec
+Processor 54 initiation time: 0.1 sec
+Processor 28 initiation time: 0.14 sec
+Processor 24 initiation time: 0.15 sec
+Processor 25 initiation time: 0.14 sec
+Processor Processor 35 initiation time: 49 initiation time: 0.1 sec
+0.15 sec
+Processor 56 initiation time: 0.1 sec
+Processor 14 initiation time: 0.14 sec
+Processor 0 initiation time: 0.15 sec
+Processor 26 initiation time: 0.15 sec
+Processor 37 initiation time: 0.14 sec
+Processor 17 initiation time: 0.15 sec
+Processor 3 initiation time: 0.14 secProcessor 31 initiation time: 
+0.15 sec
+Processor 41 initiation time: 0.14 sec
+Processor 22 initiation time: 0.15 sec
+Processor Processor 51 initiation time: 11 initiation time: 0.14 sec0.11 sec
+
+Processor 13 initiation time: 0.14 sec
+Processor 55 initiation time: Processor 0.12 sec
+Processor 36 initiation time: 38 initiation time: 0.14 sec
+0.15 sec
+Processor 44 initiation time: 0.14 sec
+Processor 50 initiation time: 0.11 sec
+Processor 23 initiation time: Processor 39 initiation time: 0.14 sec0.15 sec
+
+Processor 48 initiation time: 0.11 sec
+Processor 56 communication time: 0.38 secProcessor 49 communication time: 0.3 sec
+Processor 49 total time: Processor 53 communication time: 0.06 sec
+Processor 53 total time: 1.69 sec
+Processor 54 communication time: 0.27 sec
+Processor 54 total time: 1.69 sec
+Processor 55 communication time: 0.16 sec
+Processor 55 total time: 1.69 sec
+
+Processor 56 total time: 1.69 sec
+Processor Processor 24 communication time: 0.11 sec
+Processor 24 total time: 1.73 sec
+Processor 0 communication time: 0.23 sec
+Processor 0 total time: 1.73 sec
+1.69 sec
+Processor 25 communication time: 0.03 sec
+Processor 25 total time: 1.73 sec
+Processor 14 communication time: 0.34 sec
+Processor 14 total time: 1.73 sec
+Processor 50 communication time: 0.16 sec
+Processor 50 total time: 1.68 sec
+Processor 26 communication time: 0.09 sec
+Processor 26 total time: 1.74 sec
+Processor 21 communication time: 0.29 sec
+Processor 21 total time: 1.72 sec
+Processor 52 communication time: 0.21 sec
+Processor 27 communication time: 0.07 sec
+Processor 27 total time: 1.73 sec
+Processor 1 communication time: 0.12 sec
+Processor 1 total time: 1.71 sec
+48 communication time: 0.15 sec
+Processor 48 total time: 1.69 sec
+Processor 28 communication time: 0.26 sec
+Processor 28 total time: 1.74 sec
+Processor 2 communication time: 0.1 sec
+Processor 2 total time: 1.73 sec
+Processor 51 communication time: 0.16 sec
+Processor 51 total time: 1.69 sec
+Processor 29 communication time: 0.08 sec
+Processor 29 total time: 1.74 sec
+Processor 52 total time: 1.68 sec
+Processor 30 communication time: 0.11 sec
+Processor 30 total time: 1.74 sec
+Processor 3 communication time: 0.12 sec
+Processor 3 total time: 1.72 sec
+Processor 31 communication time: 0.11 sec
+Processor 31 total time: 1.75 sec
+Processor 4 communication time: 0.06 sec
+Processor 4 total time: 1.74 sec
+Processor 32 communication time: 0.12 sec
+Processor 32 total time: 1.74 sec
+Processor 5 communication time: 0.07 sec
+Processor 5 total time: 1.72 sec
+Processor 33 communication time: 0.12 sec
+Processor 33 total time: 1.72 sec
+Processor 7 communication time: 0.1 sec
+Processor 7 total time: 1.73 sec
+Processor 34 communication time: 0.07 sec
+Processor 34 total time: 1.74 sec
+Processor 8 communication time: 0.08 sec
+Processor 8 total time: 1.73 sec
+Processor 35 communication time: 0.31 sec
+Processor 35 total time: 1.74 sec
+Processor 9 communication time: 0.12 sec
+Processor 9 total time: 1.74 sec
+Processor 36 communication time: 0.08 sec
+Processor 36 total time: 1.74 sec
+Processor 10 communication time: 0.13 sec
+Processor 10 total time: 1.72 sec
+Processor 37 communication time: 0.07 sec
+Processor 37 total time: 1.73 sec
+Processor 11 communication time: 0.08 sec
+Processor 11 total time: 1.74 sec
+Processor 38 communication time: 0.06 sec
+Processor 38 total time: 1.73 sec
+Processor 12 communication time: 0.09 sec
+Processor 12 total time: 1.74 sec
+Processor 42 communication time: 0.29 sec
+Processor 42 total time: 1.74 sec
+Processor 13 communication time: 0.06 sec
+Processor 13 total time: 1.73 sec
+Processor 43 communication time: 0.11 sec
+Processor 43 total time: 1.73 sec
+Processor 15 communication time: 0.06 sec
+Processor 15 total time: 1.73 sec
+Processor 44 communication time: 0.05 sec
+Processor 44 total time: 1.73 sec
+Processor 16 communication time: 0.08 sec
+Processor 16 total time: 1.73 sec
+Processor 47 communication time: 0.09 sec
+Processor 47 total time: 1.73 sec
+Processor 17 communication time: 0.04 sec
+Processor 17 total time: 1.72 sec
+Processor 39 communication time: 0.07 sec
+Processor 39 total time: 1.73 sec
+Processor 18 communication time: 0.12 sec
+Processor 18 total time: 1.72 sec
+Processor 40 communication time: 0.07 sec
+Processor 40 total time: 1.73 sec
+Processor 19 communication time: 0.07 sec
+Processor 19 total time: 1.73 sec
+Processor 41 communication time: 0.1 sec
+Processor 41 total time: 1.74 sec
+Processor 20 communication time: 0.06 sec
+Processor 20 total time: 1.73 sec
+Processor 45 communication time: 0.1 sec
+Processor 45 total time: 1.73 sec
+Processor 22 communication time: 0.03 sec
+Processor 22 total time: 1.73 sec
+Processor 46 communication time: 0.09 sec
+Processor 46 total time: 1.73 sec
+Processor 23 communication time: 0.05 sec
+Processor 23 total time: 1.72 sec
+Processor 6 communication time: 0.07 sec
+Processor 6 total time: 1.73 sec
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 48 PID 1768 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 49 PID 1769 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 50 PID 1770 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 51 PID 1771 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 52 PID 1772 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 53 PID 1773 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 54 PID 1774 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 55 PID 1775 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 56 PID 1776 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+# mpiexec: finished at Sun Feb 23 12:34:33 GMT 2020

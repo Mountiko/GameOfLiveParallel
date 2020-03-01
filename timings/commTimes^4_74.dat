@@ -1,0 +1,524 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out
+# mpiexec: program arguments are: 
+# mpiexec: 96 ranks allocated via PBS select, but -n argument reduces that to 74
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has exclusive use of the allocated nodes. Enabling process-pinning
+# mpiexec: machinefile configured as:
+r5i7n11.cx2.hpc.ic.ac.uk:24
+r5i7n16.cx2.hpc.ic.ac.uk:24
+r5i7n17.cx2.hpc.ic.ac.uk:24
+r5i7n5.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Sun Feb 23 12:43:31 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out 
+(r5i7n11.cx2.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)
+(r5i7n16.cx2.hpc.ic.ac.uk:24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47)
+(r5i7n17.cx2.hpc.ic.ac.uk:48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71)
+(r5i7n5.cx2.hpc.ic.ac.uk:72,73)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+Processor 41 initiation time: 0.16Processor 25 initiation time: 0.16 sec
+Processor 33 initiation time: 0.16 sec
+ sec
+Processor 40 initiation time: Processor 0.16 sec
+32 initiation time: 0.16 sec
+Processor 39 initiation time: Processor 28 initiation time: 0.16 sec
+Processor 36 initiation time: 0.16 sec
+Processor 38 initiation time: 0.16 sec
+0.16 sec
+Processor 43 initiation time: 0.16 sec
+Processor 44 initiation time: 0.16 sec
+Processor 35 initiation time: 0.17 sec
+Processor 31 initiation time: 0.17 sec
+Processor 37 initiation time: 0.16 sec
+Processor 47 initiation time: 0.17 sec
+Processor 26 initiation time: 0.17 sec
+Processor 27 initiation time: 0.18 sec
+Processor 34 initiation time: 0.17 sec
+Processor 49 initiation time: 0.13 sec
+Processor 64 initiation time: 0.14 sec
+Processor 56 initiation time: 0.14 sec
+Processor 61 initiation time: Processor 67 initiation time: 0.14 sec
+Processor 51 initiation time: 0.15 sec
+Processor 53 initiation time: 0.14 sec
+0.14 sec
+Processor Processor 46 initiation time: 30 initiation time: 0.18 secProcessor Processor 59 initiation time: 0.14 sec
+
+Processor 62 initiation time: 0.13 sec
+0.17 sec
+Processor 66 initiation time: 0.15 sec
+29 initiation time: Processor 70 initiation time: 0.14 sec
+0.18 sec
+Processor 71 initiation time: 0.13 sec
+Processor 42 initiation time: 0.17 sec
+Processor 50 initiation time: Processor 52 initiation time: 0.14 sec
+0.13 sec
+Processor 55 initiation time: 0.13 sec
+Processor 63 initiation time: 0.13 sec
+Processor 24 initiation time: 0.18 sec
+Processor 45 initiation time: 0.17 sec
+Processor 69 initiation time: 0.15 sec
+Processor 57 initiation time: 0.15 sec
+Processor 1 initiation time: 0.14 sec
+Processor 54 initiation time: 0.16 sec
+Processor 65 initiation time: 0.14 sec
+Processor 58 initiation time: 0.15 sec
+Processor 7 initiation time: Processor 12 initiation time: Processor 19 initiation time: 0.14 sec
+Processor 20 initiation time: 0.16 sec
+Processor 3 initiation time: 0.15 sec
+0.15 sec
+Processor 11 initiation time: 0.14 sec
+0.14 sec
+Processor 21 initiation time: 0.14 sec
+Processor 5 initiation time: 0.15 secProcessor 2 initiation time: 
+0.15 sec
+Processor 23 initiation time: 0.15 sec
+Processor 18 initiation time: 0.15 sec
+Processor 10 initiation time: 0.15 sec
+Processor 48 initiation time: 0.15 sec
+Processor 68 initiation time: 0.15 sec
+Processor 73 initiation time: 0.14 sec
+Processor 0 initiation time: 0.15 sec
+Processor 60 initiation time: 0.16 sec
+Processor 8 initiation time: 0.16 sec
+Processor 17 initiation time: 0.15 sec
+Processor 22 initiation time: 0.16 sec
+Processor 9 initiation time: 0.16 sec
+Processor 14 initiation time: 0.15 sec
+Processor 4 initiation time: 0.16 sec
+Processor 72 initiation time: 0.16 sec
+Processor Processor 15 initiation time: 16 initiation time: 0.16 sec0.16 sec
+
+Processor 6 initiation time: 0.16 sec
+Processor 13 initiation time: 0.16 sec
+Processor 72 communication time: Processor 73 communication time: 0.38 sec
+Processor 72 total time: 1.39 sec
+0.26 sec
+Processor 73 total time: 1.37 sec
+Processor 1 communication time: 0.22 sec
+Processor 1 total time: 1.38 sec
+Processor 56 communication time: 0.2 sec
+Processor 56 total time: 1.39 sec
+Processor 0 communication time: 0.1 sec
+Processor 0 total time: 1.38 sec
+Processor 57 communication time: 0.22 sec
+Processor 57 total time: 1.39 sec
+Processor 24 communication time: 0.19 sec
+Processor 24 total time: 1.43 sec
+Processor 2 communication time: 0.06 sec
+Processor 2 total time: 1.38 sec
+Processor 59 communication time: 0.14 sec
+Processor 59 total time: 1.39 sec
+Processor 25 communication time: 0.13 sec
+Processor 25 total time: 1.42 sec
+Processor 3 communication time: 0.04 sec
+Processor 3 total time: 1.37 sec
+Processor 65 communication time: 0.2 sec
+Processor 65 total time: 1.38 sec
+Processor 26 communication time: 0.15 sec
+Processor 26 total time: 1.43 sec
+Processor 4 communication time: 0.07 sec
+Processor 4 total time: 1.38 sec
+Processor 48 communication time: 0.18 sec
+Processor 48 total time: 1.39 sec
+Processor 27 communication time: 0.05 sec
+Processor 27 total time: 1.42 sec
+Processor 5 communication time: 0.12 sec
+Processor 5 total time: 1.38 sec
+Processor 49 communication time: 0.16 sec
+Processor 49 total time: 1.37 sec
+Processor 28 communication time: 0.15 sec
+Processor 28 total time: 1.43 sec
+Processor 6 communication time: 0.06 sec
+Processor 6 total time: 1.38 sec
+Processor 50 communication time: 0.1 sec
+Processor 50 total time: 1.38 sec
+Processor 7 communication time: 0.05 sec
+Processor 7 total time: 1.38 sec
+Processor 51 communication time: 0.05 sec
+Processor 51 total time: 1.39 sec
+Processor 8 communication time: 0.17 sec
+Processor 8 total time: 1.4 sec
+Processor 52 communication time: 0.12 sec
+Processor 52 total time: 1.39 sec
+Processor 9 communication time: 0.22 sec
+Processor 9 total time: 1.39 sec
+Processor 53 communication time: 0.04 sec
+Processor 53 total time: 1.38 sec
+Processor 10 communication time: 0.06 sec
+Processor 10 total time: 1.39 sec
+Processor 54 communication time: 0.07 sec
+Processor 54 total time: 1.4 sec
+Processor 11 communication time: 0.05 sec
+Processor 11 total time: 1.39 sec
+Processor 55 communication time: 0.12 sec
+Processor 55 total time: 1.39 sec
+Processor 12 communication time: 0.09 sec
+Processor 12 total time: 1.39 sec
+Processor 58 communication time: 0.09 sec
+Processor 58 total time: 1.4 sec
+Processor 13 communication time: 0.05 sec
+Processor 13 total time: 1.39 sec
+Processor 60 communication time: 0.06 sec
+Processor 60 total time: 1.4 sec
+Processor 14 communication time: 0.1 sec
+Processor 14 total time: 1.4 sec
+Processor 61 communication time: 0.05 sec
+Processor 61 total time: 1.39 sec
+Processor 15 communication time: 0.04 sec
+Processor 15 total time: 1.39 sec
+Processor 62 communication time: 0.12 sec
+Processor 62 total time: 1.39 sec
+Processor 16 communication time: 0.23 sec
+Processor 16 total time: 1.39 sec
+Processor 63 communication time: 0.08 sec
+Processor 63 total time: 1.39 sec
+Processor 17 communication time: 0.3 sec
+Processor 17 total time: 1.38 sec
+Processor 64 communication time: 0.2 sec
+Processor 64 total time: 1.39 sec
+Processor 18 communication time: 0.05 sec
+Processor 18 total time: 1.38 sec
+Processor 66 communication time: 0.05 sec
+Processor 66 total time: 1.39 sec
+Processor 19 communication time: 0.05 sec
+Processor 19 total time: 1.37 sec
+Processor 67 communication time: 0.07 sec
+Processor 67 total time: 1.39 sec
+Processor 20 communication time: 0.09 sec
+Processor 20 total time: 1.38 sec
+Processor 68 communication time: 0.05 sec
+Processor 68 total time: 1.39 sec
+Processor 21 communication time: 0.05 sec
+Processor 21 total time: 1.37 sec
+Processor 69 communication time: 0.08 sec
+Processor 69 total time: 1.4 sec
+Processor 22 communication time: 0.04 sec
+Processor 22 total time: 1.38 sec
+Processor 70 communication time: 0.08 sec
+Processor 70 total time: 1.38 sec
+Processor 23 communication time: 0.06 sec
+Processor 23 total time: 1.38 sec
+Processor 71 communication time: 0.07 sec
+Processor 71 total time: 1.38 sec
+Processor 29 communication time: 0.06 sec
+Processor 29 total time: 1.43 sec
+Processor 30 communication time: 0.09 sec
+Processor 30 total time: 1.43 sec
+Processor 31 communication time: 0.08 sec
+Processor 31 total time: 1.44 sec
+Processor 32 communication time: 0.17 sec
+Processor 32 total time: 1.42 sec
+Processor 33 communication time: 0.18 sec
+Processor 33 total time: 1.42 sec
+Processor 34 communication time: 0.15 sec
+Processor 34 total time: 1.43 sec
+Processor 35 communication time: 0.09 sec
+Processor 35 total time: 1.43 sec
+Processor 37 communication time: 0.1 sec
+Processor 37 total time: 1.43 sec
+Processor 38 communication time: 0.11 sec
+Processor 38 total time: 1.42 sec
+Processor 39 communication time: 0.11 sec
+Processor 39 total time: 1.43 sec
+Processor 40 communication time: 0.25 sec
+Processor 40 total time: 1.42 sec
+Processor 41 communication time: 0.37 sec
+Processor 41 total time: 1.42 sec
+Processor 42 communication time: 0.05 sec
+Processor 42 total time: 1.41 sec
+Processor 43 communication time: 0.07 sec
+Processor 43 total time: 1.42 sec
+Processor 44 communication time: 0.1 sec
+Processor 44 total time: 1.42 sec
+Processor 45 communication time: 0.05 sec
+Processor 45 total time: 1.41 sec
+Processor 47 communication time: 0.06 sec
+Processor 47 total time: 1.42 sec
+Processor 36 communication time: 0.11 sec
+Processor 36 total time: 1.42 sec
+Processor 46 communication time: 0.07 sec
+Processor 46 total time: 1.42 sec
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 72 PID 14861 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 11 (Segmentation fault)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 73 PID 14862 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+# mpiexec: finished at Sun Feb 23 12:43:34 GMT 2020
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out
+# mpiexec: program arguments are: 
+# mpiexec: 96 ranks allocated via PBS select, but -n argument reduces that to 74
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has exclusive use of the allocated nodes. Enabling process-pinning
+# mpiexec: machinefile configured as:
+r5i7n11.cx2.hpc.ic.ac.uk:24
+r5i7n16.cx2.hpc.ic.ac.uk:24
+r5i7n17.cx2.hpc.ic.ac.uk:24
+r5i7n5.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Sun Feb 23 12:49:05 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/ncv19/home/acse-6-individual-assignment-acse-ncv19/par.out 
+(r5i7n11.cx2.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)
+(r5i7n16.cx2.hpc.ic.ac.uk:24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47)
+(r5i7n17.cx2.hpc.ic.ac.uk:48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71)
+(r5i7n5.cx2.hpc.ic.ac.uk:72,73)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+Processor 33 initiation time: 0.14 sec
+Processor 40 initiation time: 0.13 sec
+Processor 25 initiation time: 0.13 sec
+Processor 32 initiation time: 0.14 sec
+Processor 36 initiation time: Processor 27 initiation time: Processor 29 initiation time: Processor 30 initiation time: 0.14 sec
+0.15 sec
+Processor 39 initiation time: 0.15 sec
+Processor 46 initiation time: 0.14 sec
+0.14 sec
+0.14 sec
+Processor 35 initiation time: 0.13 sec
+Processor 44 initiation time: 0.15 sec
+Processor 45 initiation time: 0.14 sec
+Processor 42Processor 31 initiation time:  initiation time: 0.14 sec
+0.14 sec
+Processor 41 initiation time: 0.15 sec
+Processor 26 initiation time: 0.15 sec
+Processor 24 initiation time: 0.14 sec
+Processor 28 initiation time: 0.15 sec
+Processor 57 initiation time: 0.14 sec
+Processor 56 initiation time: 0.14 sec
+Processor 65 initiation time: 0.14 sec
+Processor 49 initiation time: 0.14 sec
+Processor 64 initiation time: 0.14 sec
+Processor 52 initiation time: Processor 53 initiation time: Processor 59 initiation time: 0.14 sec
+0.15 sec
+Processor 54 initiation time: 0.15 sec
+0.14 sec
+Processor 60 initiation time: 0.16 sec
+Processor 62 initiation time: 0.13 sec
+Processor 51 initiation time: Processor 70 initiation time: Processor 71 initiation time: 0.15 sec
+0.14 sec
+0.15 sec
+Processor 66 initiation time: 0.15 sec
+Processor 68 initiation time: 0.16 sec
+Processor Processor 55 initiation time: 0.14 sec
+Processor 69 initiation time: 50 initiation time: 0.15 sec
+Processor 63 initiation time: 0.15 sec0.15 sec
+
+Processor 34 initiation time: 0.14 sec
+Processor 73 initiation time: 0.14 sec
+Processor 8 initiation time: Processor 9 initiation time: 0.15 sec
+Processor 17 initiation time: 0.15 sec
+0.15 sec
+Processor 1 initiation time: 0.15 sec
+Processor 16 initiation time: 0.16 sec
+Processor 43 initiation time: 0.16 sec
+Processor Processor 38 initiation time: 0.15 sec
+37 initiation time: 0.15 sec
+Processor Processor 3 initiation time: 11 initiation time: 0.15 sec
+Processor 14 initiation time: Processor 22 initiation time: 0.16 secProcessor 2 initiation time: 0.15 sec
+0.16 sec
+Processor 4 initiation time: 0.15 sec
+Processor 7 initiation time: 0.16 sec
+Processor 13 initiation time: 0.15 sec
+0.16 sec
+Processor 20 initiation time: 0.16 sec
+
+Processor 5 initiation time: 0.15 sec
+Processor 47 initiation time: 0.16 sec
+Processor 15 initiation time: Processor 0.15 sec
+Processor 18 initiation time: 0.15 sec
+Processor 10 initiation time: 0.15 sec
+6 initiation time: 0.15 sec
+Processor 23 initiation time: 0.16 sec
+Processor 48 initiation time: 0.15 sec
+Processor 12 initiation time: 0.16 sec
+Processor 61 initiation time: 0.16 sec
+Processor 58 initiation time: Processor 67 initiation time: 0.15 sec
+0.17 sec
+Processor 0 initiation time: 0.16 sec
+Processor 21 initiation time: 0.17 sec
+Processor 19 initiation time: 0.17 sec
+Processor 72 initiation time: 0.16 sec
+Processor 72 communication time: Processor 73 communication time: 0.22 sec
+Processor 73 total time: 0.24 sec
+Processor 72 total time: 1.39 sec
+1.38 sec
+Processor 1 communication time: 0.17 sec
+Processor 1 total time: 1.38 sec
+Processor 33 communication time: 0.33 sec
+Processor 33 total time: 1.4 sec
+Processor 8 communication time: 0.18 sec
+Processor 8 total time: 1.39 sec
+Processor 57 communication time: 0.17 sec
+Processor 57 total time: 1.38 sec
+Processor 24 communication time: 0.28 sec
+Processor 24 total time: 1.38 sec
+Processor 0 communication time: 0.14 sec
+Processor 0 total time: 1.38 sec
+Processor 48 communication time: 0.2 sec
+Processor 48 total time: 1.39 sec
+Processor 25 communication time: 0.2 sec
+Processor 25 total time: 1.37 sec
+Processor 2 communication time: 0.09 sec
+Processor 2 total time: 1.37 sec
+Processor 49 communication time: 0.22 sec
+Processor 49 total time: 1.38 sec
+Processor 26 communication time: 0.04 sec
+Processor 26 total time: 1.39 sec
+Processor 3 communication time: 0.04 sec
+Processor 3 total time: 1.39 sec
+Processor 50 communication time: 0.06 sec
+Processor 50 total time: 1.38 sec
+Processor 27 communication time: 0.15 sec
+Processor 27 total time: 1.39 sec
+Processor 51 communication time: 0.07 sec
+Processor 51 total time: 1.38 sec
+Processor 28 communication time: 0.09 sec
+Processor 28 total time: 1.38 sec
+Processor 4 communication time: 0.06 sec
+Processor 4 total time: 1.38 sec
+Processor 29 communication time: 0.11 sec
+Processor 29 total time: 1.4 sec
+Processor 5 communication time: 0.08 sec
+Processor 5 total time: 1.38 sec
+Processor 52 communication time: 0.08 sec
+Processor 52 total time: 1.38 sec
+Processor 30 communication time: 0.08 sec
+Processor 30 total time: 1.39 sec
+Processor 6 communication time: 0.07 sec
+Processor 6 total time: 1.38 sec
+Processor 53 communication time: 0.08 sec
+Processor 53 total time: 1.38 sec
+Processor 31 communication time: 0.09 sec
+Processor 31 total time: 1.38 sec
+Processor 7 communication time: 0.05 sec
+Processor 7 total time: 1.38 sec
+Processor 54 communication time: 0.09 sec
+Processor 54 total time: 1.38 sec
+Processor 32 communication time: 0.2 sec
+Processor 32 total time: 1.39 sec
+Processor 9 communication time: 0.19 sec
+Processor 9 total time: 1.39 sec
+Processor 55 communication time: 0.1 sec
+Processor 55 total time: 1.39 sec
+Processor 34 communication time: 0.11 sec
+Processor 34 total time: 1.39 sec
+Processor 10 communication time: 0.04 sec
+Processor 10 total time: 1.4 sec
+Processor 56 communication time: 0.22 sec
+Processor 56 total time: 1.39 sec
+Processor 35 communication time: 0.07 sec
+Processor 35 total time: 1.39 sec
+Processor 11 communication time: 0.14 sec
+Processor 11 total time: 1.4 sec
+Processor 58 communication time: 0.08 sec
+Processor 58 total time: 1.39 sec
+Processor 36 communication time: 0.05 sec
+Processor 36 total time: 1.39 sec
+Processor 12 communication time: 0.04 sec
+Processor 12 total time: 1.4 sec
+Processor 59 communication time: 0.09 sec
+Processor 59 total time: 1.39 sec
+Processor 37 communication time: 0.1 sec
+Processor 37 total time: 1.39 sec
+Processor 13 communication time: 0.06 sec
+Processor 13 total time: 1.39 sec
+Processor 60 communication time: 0.05 sec
+Processor 60 total time: 1.4 sec
+Processor 38 communication time: 0.09 sec
+Processor 38 total time: 1.4 sec
+Processor 16 communication time: 0.18 sec
+Processor 16 total time: 1.39 sec
+Processor 61 communication time: 0.05 sec
+Processor 61 total time: 1.39 sec
+Processor 39 communication time: 0.09 sec
+Processor 39 total time: 1.4 sec
+Processor 17 communication time: 0.26 sec
+Processor 17 total time: 1.39 sec
+Processor 62 communication time: 0.06 sec
+Processor 62 total time: 1.38 sec
+Processor 40 communication time: 0.23 sec
+Processor 40 total time: 1.38 sec
+Processor 23 communication time: 0.07 sec
+Processor 23 total time: 1.38 sec
+Processor 63 communication time: 0.11 sec
+Processor 63 total time: 1.4 sec
+Processor 41 communication time: 0.25 sec
+Processor 41 total time: 1.39 sec
+Processor 14 communication time: 0.09 sec
+Processor 14 total time: 1.4 sec
+Processor 64 communication time: 0.23 sec
+Processor 64 total time: 1.39 sec
+Processor 42 communication time: 0.08 sec
+Processor 42 total time: 1.38 sec
+Processor 15 communication time: 0.07 sec
+Processor 15 total time: 1.4 sec
+Processor 65 communication time: 0.17 sec
+Processor 65 total time: 1.38 sec
+Processor 43 communication time: 0.03 sec
+Processor 43 total time: 1.38 sec
+Processor 18 communication time: 0.1 sec
+Processor 18 total time: 1.38 sec
+Processor 66 communication time: 0.09 sec
+Processor 66 total time: 1.38 sec
+Processor 44 communication time: 0.09 sec
+Processor 44 total time: 1.39 sec
+Processor 19 communication time: 0.04 sec
+Processor 19 total time: 1.38 sec
+Processor 67 communication time: 0.04 sec
+Processor 67 total time: 1.39 sec
+Processor 45 communication time: 0.05 sec
+Processor 45 total time: 1.38 sec
+Processor 20 communication time: 0.04 sec
+Processor 20 total time: 1.38 sec
+Processor 68 communication time: 0.08 sec
+Processor 68 total time: 1.39 sec
+Processor 46 communication time: 0.1 sec
+Processor 46 total time: 1.39 sec
+Processor 21 communication time: 0.07 sec
+Processor 21 total time: 1.39 sec
+Processor 69 communication time: 0.04 sec
+Processor 69 total time: 1.38 sec
+Processor 47 communication time: 0.05 sec
+Processor 47 total time: 1.39 sec
+Processor 22 communication time: 0.06 sec
+Processor 22 total time: 1.38 sec
+Processor 70 communication time: 0.14 sec
+Processor 70 total time: 1.39 sec
+Processor 71 communication time: 0.04 sec
+Processor 71 total time: 1.38 sec
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 72 PID 21567 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 11 (Segmentation fault)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 73 PID 21568 RUNNING AT r5i7n5.cx2.hpc.ic.ac.uk
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+# mpiexec: finished at Sun Feb 23 12:49:07 GMT 2020
